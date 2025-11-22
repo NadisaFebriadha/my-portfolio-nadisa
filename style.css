@@ -65,7 +65,7 @@ header {
     position: relative;
     margin-top: 16px;
     width: 100%;
-    background: url('bg-wallpaper.png') no-repeat center center;
+    background: url('image/bg-wallpaper.png') no-repeat center center;
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -794,7 +794,7 @@ section:not(.contact)::after {
 
 /* Background tiap section */
 .home {
-    background: url('bg-wallpaper.png') no-repeat center center / cover;
+    background: url('image/bg-wallpaper.png') no-repeat center center / cover;
     background-color: #081b29;
     position: relative;
     z-index: 2;
