@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#" style="--i:1"class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:3">Services</a> 
+            <a href="#skills" style="--i:4">Skill</a> 
+            <a href="#portfolio" style="--i:5">Portfolio</a>
+            <a href="#message-us" style="--i:6">Message Us</a>
+        </nav>
+    </header>
+    <section class="home"> <!-- perbaiki 'Home' menjadi 'home' -->
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Nadisa Febriadha. MA</h1>
+            <h3>And I am a <span class="text"></span></h3>
+            <p>I am an information system</p> <!-- perbaiki teks ke bahasa Inggris -->
+            <div class="home-sci">
+                <a href="https://www.instagram.com/nds_fbriadha?igsh=Y3Z4d2hidG9xMDU2 " style="--i:7"><i class='bx bxl-instagram'></i></box-icon></a>
+                <a href="https://www.tiktok.com/@nadisa8?_t=ZS-8yzubRIV1b5&_r=1" stsyle="--i:9"><i class='bx bxl-tiktok'></i></box-icon></a>
+                <a href="https://www.linkedin.com/in/nds-fbriadha23" style="--i:10"><i class='bx bxl-linkedin' ></i></box-icon></a>
+            </div>
+            <a href="#message-us" class="btn-box">More About Me</a>
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image/mephoto.jpg">
+        </div>
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>Nadisa Febriadha MA</h4>
+            <p>I'm a 23 year old information systems student with a deep passion for information technology. I'm fascinated by how technology is transforming our lives and committed to being a part of that change. I have expertise in electronics and programming. I'm also an active front-end and web developer, proficient in HTML, CSS, and JavaScript, as well as frameworks like React. I enjoy creating responsive and engaging websites, combining functionality with aesthetic design. I'm also interested in graphic design, where I express my creativity. I believe that technology and art can work together to create amazing experiences. I look forward to contributing to impactful projects and continuing to learn in this field.</p>
+            <a href="#message-us" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bx-code' style='color:#00eeff'  ></i>
+                        <h2>UI/UX Design</h2>
+                        <p>I provide professional UI/UX design services focused on intuitive, aesthetic and functional user interfaces. I ensure designs that are visually appealing and effective in achieving your business goals for websites, mobile applications, and other digital platforms.</p>
+                        <a href="#contact" class="read">Contact me</a>
+                    </div>
+                    
+    
+                    <div>
+                        <i class='bx bx-crop' style='color:#00eeff'  ></i>
+                        <h2>Graphic Design</h2>
+                        <p>I provide creative graphic design services that will bring your ideas to life into stunning visual masterpieces. I ensure each design is not only aesthetic, but also effective in conveying a message, I am ready to help you build a strong and memorable visual identity.</p>
+                        <a href="#contact" class="read">Contact me</a>
+                    </div>
+                    <div>
+                        <i class='bx bxl-visual-studio' style='color:#00eeff'></i>
+                        <h2>Frontend Dev</h2>
+                        <p>I offer frontend development services that focus on creating attractive and responsive user interfaces. With expertise in HTML, CSS, and JavaScript, I'm committed to ensuring that every project not only looks great but also functions well across a variety of devices and browsers.</p>
+                        <a href="#contact" class="read">Contact me</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section> 
+    
+
+    <h1 class="sub-title">My <span>Skills</span></h1>
+
+    <section id="skills">
+        <div class="skills-container">
+            <div class="skill">
+                <i class='bx bxl-html5' style="color: #e34c26;"></i>
+                <span>HTML</span>
+            </div>
+            <div class="skill">
+                <i class='bx bxl-css3' style="color: #1572b6;"></i>
+                <span>CSS</span>
+            </div>
+            <div class="skill">
+                <i class='bx bxl-javascript' style="color: #f7df1e;"></i>
+                <span>JavaScript</span>
+            </div>
+            <div class="skill">
+                <i class='bx bxl-tailwind-css' style="color: #38b2ac;"></i>
+                <span>Tailwind</span>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <div id="portfolio">
+        <div class="main-text">
+            <h2>Latest <span>Project</span></h2>
+        </div>
+
+       <div class="portfolio-container">
+            <a href="https://nadisafebriadha.github.io/DahsboardMenara/" class="project-card" target="_blank">
+                <img src="/image/proyek1.png" alt="MenaraKominfo">
+                <h5>MenaraKominfo</h5>
+                <p>Proyek UI/UX modern dengan fokus pada kenyamanan pengguna dan estetika desain yang menarik.</p>
+            </a>
+
+            <a href="https://nadisafebriadha.github.io/" class="project-card" target="_blank">
+                <img src="/image/proyek2.png" alt="Biodata">
+                <h5>Biodata</h5>
+                <p>Landing page profesional dengan desain visual yang bersih dan mudah dinavigasi.</p>
+            </a>
+
+            <a href="https://movie.belajar-pemrograman.site/movies" class="project-card" target="_blank">
+                <img src="/image/proyek3.png" alt="MovieApps">
+                <h5>MovieApps</h5>
+                <p>Infografis responsif dengan desain modern untuk pengalaman pengguna yang optimal.</p>
+            </a>
+
+            <a href="https://tugas-todos.netlify.app/" class="project-card" target="_blank">
+                <img src="/image/proyek4.png" alt="TodoList">
+                <h5>TodoList</h5>
+                <p>Dashboard interaktif yang dirancang untuk mengoptimalkan pengelolaan tugas secara efisien.</p>
+            </a>
+        </div>
+    </div>
+
+
+    <section class="contact" id="message-us">
+        <div class="contact-text">
+            <h2>Message <span>Us</span></h2>
+            <h4>Send your message</h4>
+            <p>Feel free to reach out by sending a message through the form provided below. I will respond as soon as possible!</p>
+
+            <ul class="contact-list">
+                <li><i class="bx bxs-send"></i> nadisafabriadhama@gmail.com</li>
+                <li><i class="bx bxs-phone"></i> 08561191180</li>
+            </ul>
+
+            <div class="contact-icons">
+                <a href="https://www.instagram.com/nds_fbriadha?igsh=Y3Z4d2hidG9xMDU2" style="--i:7"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.tiktok.com/@nadisa8?_t=ZS-8yzubRIV1b5&_r=1" style="--i:9"><i class='bx bxl-tiktok'></i></a>
+                <a href="https://www.linkedin.com/in/nds-fbriadha23" style="--i:10"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="">
+
+                <!-- NAMA -->
+                <label class="form-label">Nama :</label>
+                <input type="text" placeholder="Masukkan nama Anda" required>
+
+                <!-- TANGGAL LAHIR -->
+                <label class="form-label">Tanggal Lahir :</label>
+                <input type="text" placeholder="dd/mm/yyyy" required>
+
+                <!-- JENIS KELAMIN -->
+                <label class="form-label">Jenis Kelamin :</label>
+                <div class="gender-box">
+                    <label><input type="radio" name="gender" value="Laki-Laki" required> Laki-Laki</label>
+                    <label><input type="radio" name="gender" value="Perempuan" required> Perempuan</label>
+                </div>
+
+                <!-- PESAN -->
+                <label class="form-label">Pesan :</label>
+                <textarea placeholder="Tulis pesan Anda di sini..." required></textarea>
+
+                <!-- SUBMIT -->
+                <input type="submit" value="Submit" class="send">
+            </form>
+        </div>
+    </section>
+
+
+    <div class="last-text">
+        <p>developed with Nadisa Febriadha. MA</p>
+    </div>
+    <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+    
+    
+    
+        <script src="main.js"></script>
+    </body>
+    </html>
+
